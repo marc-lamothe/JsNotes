@@ -1,4 +1,5 @@
 // *  Bind() and Currying
+
 //    Currying: Only partially giving a function a parameter.
 //?   An example of 'Function Currying'
 function multiply(a, b) {
