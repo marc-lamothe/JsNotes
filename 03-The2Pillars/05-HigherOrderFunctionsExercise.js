@@ -10,22 +10,22 @@ const multiplyBy = function (num1) {
 
 const multiplyByTen = multiplyBy(10);
 
-multiplyByTen(4); //  40
-multiplyByTen(10); //  100
+console.log(multiplyByTen(4)); //  40
+console.log(multiplyByTen(10)); //  100
 
 const multiplyByHundred = multiplyBy(100);
 
-multiplyByHundred(4); //  400
-multiplyByHundred(10); //  100
+console.log(multiplyByHundred(4)); //  400
+console.log(multiplyByHundred(10)); //  100
 //
 //
 //
 // ?  That's cool, but is there a better way to do this?
 // *    Indeed, by using Arrow Functions we can have much more clean code.
 //
-const multiplyBy = (num1) => (num2) => num1 * num2;
+const multiplyBy2 = (num1) => (num2) => num1 * num2;
 
-multiplyBy(5)(2); //  10
-multiplyBy(420)(69); //  28980
+console.log(multiplyBy2(5)(2));
+console.log(multiplyBy2(420)(69));
 
 // *  Nice...

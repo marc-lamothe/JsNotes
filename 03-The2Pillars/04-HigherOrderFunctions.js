@@ -6,7 +6,7 @@
 //    The issue is that most people don't understand WHY they are useful, or WHY we care.
 //    To improve our understanding of HOF, let's break down the other types of functions...
 //
-// *  fucntion() ~ A basic function
+// *  function() ~ A basic function
 // ?    Example:
 //
 function letAdamLogin() {
